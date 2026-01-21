@@ -1,0 +1,45 @@
+/* Page layout */
+.page {
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Form */
+form input {
+  padding: 8px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #f4f4f4;
+}
+
+table tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Highlight recently changed row */
+.highlight {
+  background-color: #d1ffd6 !important;
+  transition: background-color 1s ease;
+}
+
+/* Edit mode text */
+.edit-mode {
+  color: #d35400;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

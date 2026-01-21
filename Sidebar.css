@@ -1,0 +1,35 @@
+.sidebar {
+  width: 220px;
+  min-height: 100vh;
+  background: #1e293b;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h3 {
+  margin-bottom: 20px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.link.active {
+  background: #2563eb;
+}
+
+.logout-btn {
+  margin-top: auto;
+  padding: 10px;
+  background: #dc2626;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
